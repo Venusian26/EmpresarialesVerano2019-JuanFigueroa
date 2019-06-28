@@ -1,14 +1,14 @@
 const sendmail = require("./sendmail");
-const nombre = " Juan Figueroa";
+const nombre = " Arjona";
 
 const env = {
-    to:"juanfigueroac26@gmail.com",
+    to:"iarjona@ittepic.edu.mx",
     subject: " TAREA 4 - AE2019",
     text:` Este es un mensaje que se envio a ${nombre}`,
     html :` <table style="max-width: 600px; padding: 10px; margin:0 auto; border-collapse: collapse;">
 	<tr>
 		<td style="background-color: #ecf0f1; text-align: left; padding: 0">
-			<a href="https://www.facebook.com/venusian26">
+			<a href="https://www.facebook.com/">
 				<img width="20%" style="display:block; margin: 1.5% 3%" src="https://ytimg.googleusercontent.com/vi/6AXYmNPUr8g/mqdefault.jpg">
 			</a>
 		</td>
